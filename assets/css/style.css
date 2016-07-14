@@ -1,0 +1,135 @@
+h2 {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+li {
+	display: inline;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p {
+	color: #cac6bd;
+	clear: left;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+}
+
+img {
+	height: 50px;
+	width: 50px;
+}
+
+a {
+	color: #777777;
+	text-decoration: none;
+	margin: 15px;
+}
+
+.container {
+
+}
+
+.name {
+	display: inline-block;
+	float: left;
+	margin-left: 100px;
+}
+
+.navbar {
+	float: right;
+	display: inline;
+	background-color: white;
+	margin-right: 150px;
+	padding: 25px;
+}
+
+.about_me_background {
+	border-bottom: solid #4aaaa5 10px;
+	float: left;
+	background-image: url("file:///Users/wehaveaproblem16/Basic-Portfolio/assets/images/cork-wallet/cork-wallet.png");
+}
+
+.about_me {
+	float: left;
+	border: solid #eeeeee 1px;
+	display: block;
+	background-color: white;
+	margin-left: 100px;
+	margin-right: 650px;
+	padding: 10px;
+}
+
+.div1 img {
+	float: left;
+	height: 130px;
+	width: 130px;
+}
+
+.div2 {
+	
+}
+
+.div2 p {
+	color: #777777;
+}
+
+.h2 {
+	color: #4aaaa5;
+	background-color: white;
+	border-bottom: solid #777777 2px;
+	margin-bottom: 0px;
+}
+
+.portfolio_background {
+	border-bottom: solid #4aaaa5 10px;
+	float: left;
+	background-image: url("file:///Users/wehaveaproblem16/Basic-Portfolio/assets/images/cork-wallet/cork-wallet.png");
+}
+
+.portfolio_icons {
+	float: left;
+	padding: 20px;
+	margin-left: 100px;
+	margin-right: 600px;
+	background-color: white;
+}
+
+.portfolio_icons img{
+	display: inline;
+	height: 250px;
+	width: 250px;
+}
+
+.contact_background {
+	border-bottom: solid #4aaaa5 10px;
+	float: left;
+	background-image: url("file:///Users/wehaveaproblem16/Basic-Portfolio/assets/images/cork-wallet/cork-wallet.png");
+}
+
+.connect {
+	float: right;
+	display: inline;
+	border-bottom: solid #777777 2px;
+	background-color: white;
+	margin-left: 575px;
+	margin-right: 350px;
+	padding: 20px;
+}
+
+.footer {
+	background-color: #666666;
+	color: #cac6bd;
+	text-align: center;
+	padding: 0px;
+	position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
