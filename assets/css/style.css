@@ -1,8 +1,9 @@
 h2 {
 	background-color: #4aaaa5;
 	color: white;
-	padding: 10px;
+	padding: 35px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin: 0 auto;
 }
 
 h3 {
@@ -32,52 +33,92 @@ a {
 	margin: 15px;
 }
 
-.container {
-
-}
-
 .name {
-	display: inline-block;
-	float: left;
 	margin-left: 100px;
+	padding: 0px;
 }
 
 .navbar {
-	float: right;
-	display: inline;
 	background-color: white;
 	margin-right: 150px;
 	padding: 25px;
 }
 
-.about_me_background {
+.flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    }
+
+.flex-item:nth-child(1) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.flex-item:nth-child(2) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    }
+
+#about_me_background {
 	border-bottom: solid #4aaaa5 10px;
-	float: left;
 	background-image: url("file:///Users/wehaveaproblem16/Basic-Portfolio/assets/images/cork-wallet/cork-wallet.png");
+	padding-bottom: 10px;
+	padding-top: 30px;
+	margin: 0 auto;
+
 }
 
 .about_me {
-	float: left;
 	border: solid #eeeeee 1px;
 	display: block;
 	background-color: white;
-	margin-left: 100px;
-	margin-right: 650px;
 	padding: 10px;
+	height: 400px;
+	width: 575px;
 }
 
-.div1 img {
-	float: left;
-	height: 130px;
-	width: 130px;
+.about_me img {
+	margin-top: 10px;
+	height: 200px;
+	width: 200px;
 }
 
-.div2 {
-	
+.image_container {
+	display: inline;
 }
 
-.div2 p {
-	color: #777777;
+.p_container {
+	display: inline;
 }
 
 .h2 {
@@ -94,11 +135,19 @@ a {
 }
 
 .portfolio_icons {
+	border: solid black 2px;
 	float: left;
 	padding: 20px;
-	margin-left: 100px;
-	margin-right: 600px;
+	height: 375px;
+	width: 600px;
 	background-color: white;
+	overflow: scroll;
+}
+
+.portfolio_heading {
+	color: #4aaaa5;
+	background-color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .portfolio_icons img{
@@ -113,13 +162,9 @@ a {
 	background-image: url("file:///Users/wehaveaproblem16/Basic-Portfolio/assets/images/cork-wallet/cork-wallet.png");
 }
 
-.connect {
-	float: right;
-	display: inline;
+.connect_container {
 	border-bottom: solid #777777 2px;
 	background-color: white;
-	margin-left: 575px;
-	margin-right: 350px;
 	padding: 20px;
 }
 
@@ -127,7 +172,7 @@ a {
 	background-color: #666666;
 	color: #cac6bd;
 	text-align: center;
-	padding: 0px;
+	padding: 10px;
 	position: fixed;
     right: 0;
     bottom: 0;
