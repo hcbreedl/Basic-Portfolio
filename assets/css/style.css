@@ -25,6 +25,11 @@ a {
 
 a:hover {
 	color: pink;
+	transition: 0.5s;
+}
+
+a:active {
+	color: limegreen;
 }
 
 body {
@@ -42,6 +47,7 @@ h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 21px;
 	margin: 0;
+	margin-right: 75px;
 }
 
 h3 {
@@ -143,7 +149,7 @@ span {
 #about_me_background {
 	background-image: url("https://github.com/hcbreedl/Basic-Portfolio/blob/master/assets/images/cork-wallet/cork-wallet.png?raw=true");
 	padding-bottom: 28px;
-	padding-top: 28px;
+	padding-top: 12px;
 	margin: 0 auto;
 }
 
@@ -160,7 +166,7 @@ span {
 	display: block;
 	background-color: #ffffff;
 	padding: 10px;
-	margin: 0px 0px 150px 70px;
+	margin: 0px 0px 92px 46px;
 	height: 400px;
 	width: 600px;
 }
@@ -188,7 +194,7 @@ span {
 	display: inline;
 	background-color: #ffffff;
 	padding: 10px;
-	margin: 0px 0px 150px 70px;
+	margin: 0px 0px 92px 55px;
 	height: 700px;
 	width: 550px;
 }
@@ -209,6 +215,7 @@ span {
 
 .portfolio_icons img:hover {
     opacity: 0.5;
+    transition: 1s;
 }
 
 /* Portfolio Icon 1 */
@@ -242,11 +249,12 @@ span {
 	position: relative;
 	color: white;
 	text-align: center;
-	top: 10px;
+	top: -5px;
 }
 
 .icon1_button p:hover {
 	color: #E8BF6C;
+	transition: 1s;
 }
 
 /* Portfolio Icon 2 */
@@ -437,7 +445,7 @@ span {
 	padding: 20px;
 	height: 150px;
 	width: 200px;
-	margin: 0px 150px 360px 0px;
+	margin: 15px 47px 335px 0px;
 }
 
 .connect_container img {
@@ -452,7 +460,7 @@ span {
 	padding: 20px;
 	height: 150px;
 	width: 200px;
-	margin: -260px 150px 420px 0px;
+	margin: 15px 47px 634px 0px;
 }
 
 .connect_container_p img {
