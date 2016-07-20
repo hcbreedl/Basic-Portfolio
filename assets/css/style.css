@@ -38,8 +38,9 @@ form {
 h2 {
 	background-color: #4aaaa5;
 	color: white;
-	padding: 25px;
+	padding: 22px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 21px;
 	margin: 0;
 }
 
@@ -54,12 +55,24 @@ h3 {
 li {
 	display: inline;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: 100;
 }
 
 p {
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	margin: 10px 2px 2px 2px;
+	font-size: 13px;
+	margin: 0px 2px 2px 2px;
+	line-height: 210%;
+	padding-top: 5px;
+	font-weight: 100;
+}
+
+span {
+	font-weight: 100;
+	color: lightgrey;
+	opacity: 0.3;
 }
 
 /* Flex Containers */
@@ -157,7 +170,6 @@ p {
 	margin: 10px 10px 8px 0px;
 	height: 200px;
 	width: 200px;
-	border: solid darkgrey 4px;
 }
 
 .image_container {
@@ -556,11 +568,11 @@ p {
 /* Footer */
 .footer {
 	z-index: 2;
-	border-top: solid #4aaaa5 10px;
+	border-top: solid #4aaaa5 6px;
 	background-color: #666666;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	text-align: center;
-	padding: 10px;
+	padding: 19px;
 	position: fixed;
     right: 0;
     bottom: 0;
